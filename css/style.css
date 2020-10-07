@@ -460,7 +460,8 @@
 .categories__flex-row {
   display: flex;
   flex-direction: row;
-  margin: 40px 0 0 0;
+  flex-wrap: wrap;
+  margin: 0;
   padding: 0;
   border: 0;
   list-style-type: none;
@@ -468,13 +469,13 @@
 }
 
 .categories__card {
-  margin: 0 56px 0 0;
+  margin: 40px 56px 0 0;
   padding: 0;
   border: 0;
 }
 
-.categories__card:last-child {
-  margin: 0;
+.categories__card:nth-of-type(3n) {
+  margin: 40px 0 0 0;
 }
 
 .card {
