@@ -262,7 +262,7 @@
   border: 0;
 }
 
-.about-as__flex-column {
+.about-us__flex-column {
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -271,7 +271,7 @@
 }
 
 
-.about-as__flex-row {
+.about-us__flex-row {
   display: flex;
   flex-direction: row;
   margin: 40px 0 0 0;
@@ -281,11 +281,11 @@
   justify-content: space-between;
 }
 
-.about-as__flex-row:first-child {
+.about-us__flex-row:first-child {
   margin-right: 100px;
 }
 
-.about-as__figure {
+.about-us__figure {
   position: absolute;
   top: 0;
   left: 0;
@@ -297,12 +297,12 @@
   z-index: 1;
 }
 
-.about-as__img {
+.about-us__img {
   padding: 0;
   border: 0;
 }
 
-.about-as__img_name_salad {
+.about-us__img_name_salad {
   min-width: 388px;
   height: 306px;
   margin: 82px 78px 0 38px;
@@ -313,7 +313,7 @@
   z-index: 2;
 }
 
-.about-as__img_name_spoon {
+.about-us__img_name_spoon {
   min-width: 287px;
   height: 384px;
   margin: 0 0 0 115px;
@@ -322,7 +322,7 @@
   background-size: cover;
 }
 
-.about-as__block-text {
+.about-us__block-text {
   margin: 0;
   padding: 0;
   border: 0;
