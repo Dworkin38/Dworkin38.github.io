@@ -12,29 +12,31 @@
 <div class="page">
   <header class="header page__header" id="header" >
     <div class=header__top>
-      <div class="logo header__logo">
+      <div class="header__logo logo ">
         <div class="logo__picture"></div>
         <p class="logo__text">woodies</p>
       </div>
-      <nav class="menu header__menu">
+      <nav class="header__menu menu ">
         <ul class="menu__list">
-          <li class="menu__item"><a class="menu__link menu__link_first" href="#header">Home</a></li>
+          <li class="menu__item"><a class="menu__link menu__link_active" href="#header">Home</a></li>
           <li class="menu__item"><a class="menu__link" href="#about-us">About Us</a></li>
           <li class="menu__item"><a class="menu__link" href="#how-it-works">How it works</a></li>
           <li class="menu__item"><a class="menu__link" href="#categories">Categories</a></li>
         </ul>
       </nav>
-    </div> 
-    <div class="header__square"></div>
-    <div class="header__image"></div>
-    <div class="header__content">
-      <p class="header__text">Are you looking for <span class="header__text header__text_wight_bold">woodden furniture</span> for your place?</p>
-      <h1 class="header__title">This is the Right Place</h1>
-      <button class="header__button button">Explore Furniture</button>
     </div>
-  </header>
+    <div class="header__img_square"></div> 
+  </header> 
   <main class="page__main main">
-
+    <section class="main__content content">
+      <div class="content__square"></div>
+      <div class="content__inner">
+        <p class="content__text">Are you looking for <span class="content__text content__text_wight_bold">woodden furniture</span> for your place?</p>
+        <h1 class="content__title">This is the Right Place</h1>
+        <button class="content__button button">Explore Furniture</button>
+      </div>
+      <div class="content__image"></div>
+    </section>
     <section class="main__about-us about-us" id="about-us">
       <div class="about-us__heading heading">
         <p class="heading__subtitle">Who we are</p>
@@ -44,16 +46,16 @@
         <div class="about-us__flex-row">
           <div class="about-us__figure"></div>
           <div class="about-us__img about-us__img_name_salad"></div>
-          <div class="about-us__block-text block-text">
-            <p class="block-text__title"><span class="block-text__title block-text__title_uppercase">woodies</span>
-            <span class="block-text__title block-text__title_weight_normal">is the</span> home of modern wooden furniture</p>
-            <p class="block-text__text">the answer to your need for furniture with shapes, sizes and colors.</p>
+          <div class="about-us__text-block text-block">
+            <p class="text-block__title"><span class="text-block__title text-block__title_uppercase">woodies</span>
+            <span class="text-block__title text-block__title_weight_normal">is the</span> home of modern wooden furniture</p>
+            <p class="text-block__text">the answer to your need for furniture with shapes, sizes and colors.</p>
           </div>
         </div>
         <div class="about-us__flex-row">
-          <div class="about-us__block-text block-text">
-            <p class="block-text__title"><span class="block-text__title block-text__title_weight_normal">Customized furniture</span> made just for you</p>
-            <p class="block-text__text">Get it easy to adjust furniture to the shape and size of your dwelling or business.</p>
+          <div class="about-us__text-block text-block">
+            <p class="text-block__title"><span class="text-block__title text-block__title_weight_normal">Customized furniture</span> made just for you</p>
+            <p class="text-block__text">Get it easy to adjust furniture to the shape and size of your dwelling or business.</p>
           </div>
           <div class="about-us__img about-us__img_name_spoon"></div>
         </div>
@@ -98,27 +100,27 @@
       <ul class="categories__flex-row">
         <li class="categories__card card card_style_pink">
           <h3 class="card__title">Desk</h3>
-          <div class="card__warp card__warp_style_desk"><img class="card__img" src="image/desk.png" alt="desk"></div>
+          <div class="card__wrap card__wrap_style_desk"><img class="card__img" src="image/desk.png" alt="desk"></div>
           <button class="card__button">Shop Now</button>
         </li>
         <li class="categories__card card card_style_yellow">
           <h3 class="card__title">Chair</h3>
-          <div class="card__warp"><img class="card__img" src="image/chair.png" alt="chair"></div>
+          <div class="card__wrap"><img class="card__img" src="image/chair.png" alt="chair"></div>
           <button class="card__button">Shop Now</button>
         </li>
         <li class="categories__card card card_style_blue">
           <h3 class="card__title">Kitchenware</h3>
-          <div class="card__warp"><img class="card__img" src="image/kitchnware.png" alt="kitchnware"></div>
+          <div class="card__wrap"><img class="card__img" src="image/kitchnware.png" alt="kitchnware"></div>
           <button class="card__button">Shop Now</button>
         </li>
         <li class="categories__card card card_style_pink">
           <h3 class="card__title">Book Shelf</h3>
-          <div class="card__warp"><img class="card__img" src="image/bookshelf.png" alt="book shelf"></div>
+          <div class="card__wrap"><img class="card__img" src="image/bookshelf.png" alt="book shelf"></div>
           <button class="card__button">Shop Now</button>
         </li>
         <li class="categories__card card card_style_yellow">
           <h3 class="card__title card__title_style_electronic">Electronics</h3>
-          <div class="card__warp"><img class="card__img" src="image/electronics.png" alt="electronics"></div>
+          <div class="card__wrap"><img class="card__img" src="image/electronics.png" alt="electronics"></div>
           <button class="card__button">Shop Now</button>
         </li>
       </ul>
@@ -133,8 +135,8 @@
           <p class="logo__text">woodies</p>
         </div>
         <ul class="footer__list">
-          <li class="footer__item">(012) 8967453</li>
-          <li class="footer__item">test@email.com</li>
+          <li class="footer__item"><a class="footer__link" href="tel:+1(012)8967453">(012) 8967453</a></li>
+          <li class="footer__item"><a class="footer__link" href="mailto:test@email.com">test@email.com</a></li>
           <li class="footer__item">Test Address</li>
         </ul>
       </div>
