@@ -189,7 +189,7 @@
   margin: 0;
 }
 
-.content__accent-bold {
+.content__accent {
   font-weight: bold;
 }
 
@@ -321,11 +321,7 @@
   margin: 0 0 16px 0;
 }
 
-.text-block__accent-uppercase {
-  text-transform: uppercase;
-}
-
-.text-block__accent-normal {
+.text-block__accent {
   font-weight: 600;
 }
 
